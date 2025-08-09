@@ -136,14 +136,13 @@ class Evaluator:
             return None
 
 
+# if __name__ == "__main__":
+#     # Test with mock retrieved chunks
+#     mock_chunks = [
+#         {"chunk": "AI is being used in healthcare to assist doctors in diagnosis and treatment.", "metadata": "doc1.pdf"},
+#         {"chunk": "Machine learning models help predict patient outcomes and optimize hospital workflows.", "metadata": "doc1.pdf"}
+#     ]
 
-if __name__ == "__main__":
-    # Test with mock retrieved chunks
-    mock_chunks = [
-        {"chunk": "AI is being used in healthcare to assist doctors in diagnosis and treatment.", "metadata": "doc1.pdf"},
-        {"chunk": "Machine learning models help predict patient outcomes and optimize hospital workflows.", "metadata": "doc1.pdf"}
-    ]
-
-    evaluator = Evaluator()
-    answer = evaluator.generate_answer("How is AI used in healthcare?", mock_chunks)
-    print("\n🤖 Final Answer:\n", answer)
+#     evaluator = Evaluator()
+#     answer = evaluator.generate_answer("How is AI used in healthcare?", mock_chunks)
+#     print("\n🤖 Final Answer:\n", answer)
