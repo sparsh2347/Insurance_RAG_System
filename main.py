@@ -89,11 +89,11 @@ def query_system(query: str, top_k: int = 5):
     return answer
 
 
-if __name__ == "__main__":
-    # === Example flow ===
+# if __name__ == "__main__":
+#     # === Example flow ===
 
-    # Step 1: Process documents (only once per document)
-    process_document("sample_files/sample.pdf")
+#     # Step 1: Process documents (only once per document)
+#     process_document("sample_files/sample.pdf")
 
-    # Step 2: Query the system
-    query_system("Does this policy cover knee surgery?", top_k=3)
+#     # Step 2: Query the system
+#     query_system("Does this policy cover knee surgery?", top_k=3)
